@@ -1,0 +1,7 @@
+{
+    "eslint.notebooks.rules.customizations": [
+    ],
+    "eslint.workingDirectories": [
+        "./ADDRESSBOOK-APP"
+    ]
+}

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Address Book Component renders correctly 1`] = `
+<div>
+  <h3
+    className="MuiTypography-root MuiTypography-h3 css-1j19yin-MuiTypography-root"
+  >
+    Address Book
+  </h3>
+  <br />
+  <br />
+</div>
+`;
