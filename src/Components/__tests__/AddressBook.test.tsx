@@ -1,7 +1,6 @@
-import renderer, { act } from 'react-test-renderer';
 import { render, waitFor } from '@testing-library/react';
+import renderer from 'react-test-renderer';
 import AddressBook from '../AddressBook';
-//import axios from 'axios';
 import { mockgetUsersResponse } from './mockData/getUsersData';
 
 // Reference : https://stackoverflow.com/questions/64844580/jest-mocking-typeerror-axios-get-mockresolvedvalue-is-not-a-function
