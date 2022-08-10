@@ -36,7 +36,7 @@ exports[`Users Details Component when state data is undefined Users Card compone
 </div>
 `;
 
-exports[`Users Details Component when userData is passed Users Card component is rendered correctly when value passed as null 1`] = `
+exports[`Users Details Component when userData is passed Users Card component is rendered correctly when value passed 1`] = `
 <div
   className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standardWarning MuiAlert-standard css-rob5aa-MuiPaper-root-MuiAlert-root"
   role="alert"
