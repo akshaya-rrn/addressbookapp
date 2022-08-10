@@ -1,12 +1,12 @@
 import { Alert, AlertTitle, Box, Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
+import { UsersCard } from './UserCard';
 import { GetUsers } from '../services/users';
 import { UserResponseResult } from '../types';
-import { UsersCard } from './UserCard';
 
 
 const ErrorComponent = () => {
-    return <Alert severity="error">
+    return <Alert severity="error" data-testid="errorcomponent">
     <AlertTitle>Invalid Request</AlertTitle>
         There is something wrong with the request — <strong>Please try again!</strong>
     </Alert>
@@ -27,7 +27,7 @@ function AddressBook() {
 
 
   return (
-    <div>
+    <div data-testid='addressbook'>
       <Typography variant="h3" component={'h3'} alignContent="center">Address Book</Typography>
       <br/>
       <br/>

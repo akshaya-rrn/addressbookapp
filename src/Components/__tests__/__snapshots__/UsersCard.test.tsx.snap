@@ -3,7 +3,7 @@
 exports[`UsersCard Component Users Card component is rendered correctly 1`] = `
 <div
   className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 css-1ld3b9g-MuiGrid-root"
-  id="useraddressbook"
+  data-testid="useraddressbook"
 >
   <div
     className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"

@@ -35,7 +35,7 @@ export const UsersCard: React.FC<UsersCardComponentProps> = ({usersData}: UsersC
   };
 
   return (
-    <Grid id="useraddressbook" container spacing={5}>
+    <Grid data-testid="useraddressbook" container spacing={5}>
       {usersData.map((user, index) => (
         <Grid key={index} item xs={2}>
           <DisplayUserCard userInfo={user} />
